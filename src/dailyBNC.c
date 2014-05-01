@@ -12,6 +12,7 @@
 #include <getopt.h>
 
 #include <libsrsirc/irc_basic.h>
+#include <libsrsirc/irc_util.h>
 
 static void process_args(int *argc, char ***argv);
 static void init(int *argc, char ***argv);
