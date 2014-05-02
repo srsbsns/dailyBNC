@@ -44,6 +44,7 @@ static void
 init(int *argc, char ***argv)
 {
 	process_args(argc, argv);
+	if (*argc != 1)
 }
 
 
