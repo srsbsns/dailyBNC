@@ -45,6 +45,7 @@ init(int *argc, char ***argv)
 {
 	process_args(argc, argv);
 	if (*argc != 1)
+		usage(stderr, (*argv)[0], EXIT_FAILURE);
 }
 
 
