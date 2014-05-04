@@ -56,7 +56,7 @@ usage(FILE *str, const char *a0, int ec)
 	I("================================");
 	I("== dailyBNC - beat you to it! ==");
 	I("================================");
-	fprintf(str, "usage: %s [-h]\n", a0);
+	fprintf(str, "usage: %s [-h] <server[:port]>\n", a0);
 	I("");
 	I("\t-h: Display brief usage statement and terminate");
 	I("");
